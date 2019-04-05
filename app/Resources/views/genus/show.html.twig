@@ -1,1 +1,9 @@
 <h1>The Genus {{name}}</h1>
+
+{# {{dump()}}  this show array of all the variables and there contain  #}
+
+<ul>
+    {% for note in notes %}
+    <li>{{note}}</li>
+    {% endfor %}
+</ul>
